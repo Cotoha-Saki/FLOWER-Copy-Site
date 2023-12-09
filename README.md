@@ -1,2 +1,2 @@
-# FLOWER---Copy-Site
+# FLOWER-Copy-Site
 FLOWERの模写サイト
