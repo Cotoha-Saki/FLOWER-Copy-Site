@@ -1,0 +1,48 @@
+.header {
+    background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/header_bg_S-f71516121ee5fedc0f61396d86e980a54f719b57898be4e5d391ed1e0768aefa.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.header .logo {
+    background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/logo-64a9e08571ea8941694f2828e0aa1253e037e5273c3cfa37a457430294c33951.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 160px;
+    text-align: center;
+    margin: 0 auto;
+    filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.25));
+    animation: 1.75s fadeIn ease 0.5s 1 normal;
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 600px) {
+    .header {
+        background-image:url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/header_bg-c9ed7b2e572e200d27cae1b42010563170fdc48ff31e206f9e2c94712ee4773c.jpg);
+        background-size: cover;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .header .logo {
+        background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/logo-64a9e08571ea8941694f2828e0aa1253e037e5273c3cfa37a457430294c33951.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 160px;
+        text-align: center;
+        margin: 0 auto;
+        filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.25));
+        animation: 1.75s fadeIn ease 0.5s 1 normal;
+        vertical-align: middle;
+    }
+}
