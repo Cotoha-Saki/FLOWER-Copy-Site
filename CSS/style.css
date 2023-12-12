@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'SFTM';
+    src: url(/font/SF-Pro-Text-Medium.otf);
+}
+
+@font-face {
+    font-family: 'SFMJ';
+    src: url(/font/SFProJP_medium.woff);
+}
+
 .header {
     background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/header_bg_S-f71516121ee5fedc0f61396d86e980a54f719b57898be4e5d391ed1e0768aefa.jpg);
     background-size: cover;
@@ -23,7 +33,7 @@
 
 @media screen and (min-width: 600px) {
     .header {
-        background-image:url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/header_bg-c9ed7b2e572e200d27cae1b42010563170fdc48ff31e206f9e2c94712ee4773c.jpg);
+        background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/header_bg-c9ed7b2e572e200d27cae1b42010563170fdc48ff31e206f9e2c94712ee4773c.jpg);
         background-size: cover;
         background-position: center bottom;
         background-repeat: no-repeat;
@@ -44,5 +54,94 @@
         filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.25));
         animation: 1.75s fadeIn ease 0.5s 1 normal;
         vertical-align: middle;
+    }
+
+    .read-all {
+        padding: 70px;
+    }
+
+    .read {
+        font-family: "SFMJ", "SFTM";
+        font-size: 37px;
+        font-weight: bold;
+        color: #3f434a;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    .read-small {
+        font-family: "SFMJ", "SFTM";
+        font-weight: bold;
+        font-size: 20px;
+        color: #3f434a;
+        text-align: center;
+    }
+
+    .app-all {
+        background-color: #F6F5F1;
+    }
+
+    .app-all .apps {
+        margin: 0px auto;
+        max-width: 1100px;
+    }
+
+    .app-all .apps .app-s {
+        padding: 40px 0px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .app-all .apps .app-s .app-img {
+        background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/app_main-68afa5d1168e680371b5f540529cd4eb837df4ce3d64542c8bfb72cd331e30d5.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 500px;
+        width: 50rem;
+    }
+
+    .app-all .app-left .app-store {
+        justify-content: flex-start;
+        display: flex;
+        padding-top: 20px;
+    }
+
+    .app-all .app-left .app-store .app-appstore {
+        background-image: url("/img/AppStore.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 10vh;
+        width: 190px;
+        margin-right: 20px;
+    }
+
+    .app-all .app-left .app-store .app-googleplay {
+        background-image: url("/img/GooglePlay.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 10vh;
+        width: 190px;
+    }
+
+    .app-all .app-left {
+        padding-top: 100px;
+    }
+
+    .app-all .app-left .app-text .app {
+        font-family: "SFMJ", "SFTM";
+        font-size: 36px;
+        padding-bottom: 25px;
+        color: #3f434a;
+        line-height: 50px;
+    }
+
+    .app-all .app-left .app-text .app-small {
+        font-family: "SFMJ", "SFTM";
+        font-size: 20px;
+        color: #3f434a;
+        line-height: 30px;
+        margin-right: 40px;
     }
 }
