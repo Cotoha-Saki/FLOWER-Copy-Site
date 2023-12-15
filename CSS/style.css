@@ -8,27 +8,126 @@
     src: url(/font/SFProJP_medium.woff);
 }
 
-.header {
-    background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/header_bg_S-f71516121ee5fedc0f61396d86e980a54f719b57898be4e5d391ed1e0768aefa.jpg);
-    background-size: cover;
-    background-position: center bottom;
-    height: 80vh;
-    display: flex;
-    align-items: center;
-}
+@media screen and (max-width: 600px) {
 
-.header .logo {
-    background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/logo-64a9e08571ea8941694f2828e0aa1253e037e5273c3cfa37a457430294c33951.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 160px;
-    text-align: center;
-    margin: 0 auto;
-    filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.25));
-    animation: 1.75s fadeIn ease 0.5s 1 normal;
-    vertical-align: middle;
+    .header {
+        background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/header_bg_S-f71516121ee5fedc0f61396d86e980a54f719b57898be4e5d391ed1e0768aefa.jpg);
+        background-size: cover;
+        background-position: center bottom;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .header .logo {
+        background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/logo-64a9e08571ea8941694f2828e0aa1253e037e5273c3cfa37a457430294c33951.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 160px;
+        text-align: center;
+        margin: 0 auto;
+        filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.25));
+        animation: 1.75s fadeIn ease 0.5s 1 normal;
+        vertical-align: middle;
+    }
+
+    .read-all {
+        padding: 70px;
+    }
+
+    .read {
+        font-family: "SFMJ", "SFTM";
+        font-size: 30px;
+        font-weight: bold;
+        color: #3f434a;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    .read-small {
+        font-family: "SFMJ", "SFTM";
+        font-weight: bold;
+        font-size: 20px;
+        color: #3f434a;
+        text-align: center;
+    }
+
+    .app-all {
+        background-color: #F6F5F1;
+    }
+
+    .app-all .apps {
+        margin: 0px auto;
+        max-width: 1100px;
+        padding-top: 20px;
+        padding-bottom: 13px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .app-all .apps .app-s {
+        padding: 40px 0px 20px;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .app-all .apps .app-s .app-img-r {
+        background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/app_main-68afa5d1168e680371b5f540529cd4eb837df4ce3d64542c8bfb72cd331e30d5.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 390px;
+    }
+
+    .app-all .apps .app-s .app-img {
+        display: none;
+    }
+
+    .app-all .app-left .app-store {
+        justify-content: center;
+        display: flex;
+        padding-top: 25px;
+    }
+
+    .app-all .app-left .app-store .app-appstore {
+        background-image: url("/img/AppStore.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 10vh;
+        width: 190px;
+        margin-right: 15px;
+    }
+
+    .app-all .app-left .app-store .app-googleplay {
+        background-image: url("/img/GooglePlay.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 10vh;
+        width: 190px;
+    }
+
+    .app-all .app-left {
+        padding-top: 20px;
+    }
+
+    .app-all .app-left .app-text .app {
+        font-family: "SFMJ", "SFTM";
+        font-size: 26px;
+        padding-bottom: 25px;
+        color: #3f434a;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .app-all .app-left .app-text .app-small {
+        text-align: left;
+        font-family: "SFMJ", "SFTM";
+        font-size: 17px;
+        color: #3f434a;
+        line-height: 30px;
+    }
 }
 
 @media screen and (min-width: 600px) {
